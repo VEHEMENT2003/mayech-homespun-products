@@ -269,82 +269,98 @@
     </section>
 
     <!-- ================= CONTACT ================= -->
-    <section id="contact" class="scroll-mt-20 px-3 pb-10 pt-2 sm:px-6 md:pb-16 bg-cream">
-      <div class="mx-auto max-w-6xl rounded-3xl border border-line bg-white/60 p-5 sm:p-8">
-        <p class="eyebrow">संपर्क</p>
-        <h2 class="section-title mt-1 justify-start text-left">Contact Us</h2>
-        <p class="mt-2 max-w-2xl text-[13.5px] leading-relaxed text-brown">
-          ऑर्डर किंवा चौकशीसाठी खालील क्रमांकावर संपर्क करा. WhatsApp वर मेसेज करा — आम्ही लवकरच उत्तर देऊ.
-        </p>
-
-        <div class="mt-4 grid gap-3 sm:grid-cols-2">
+        <!-- ================= NEW CONTACT & FOOTER SECTION ================= -->
+    
+    <!-- 1. WhatsApp CTA Banner & Festive Banner -->
+    <section id="contact" class="scroll-mt-20 px-3 sm:px-6 relative z-10 bg-cream pb-0">
+      <div class="mx-auto max-w-5xl">
+        
+        <!-- WhatsApp Green Banner -->
+        <div class="bg-[#1B6D32] text-white rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg shadow-[#1B6D32]/20">
+          <div class="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+            <div class="bg-white/10 p-3 rounded-2xl shrink-0">
+              <i data-lucide="message-circle" class="h-8 w-8 text-white"></i>
+            </div>
+            <div>
+              <p class="font-display text-lg md:text-xl font-bold">ऑर्डर, चौकशी किंवा अधिक माहितीसाठी</p>
+              <p class="text-sm md:text-base text-white/90">आमच्याशी WhatsApp वर संपर्क करा.</p>
+            </div>
+          </div>
+          
           <a id="contactWhatsapp" href="#" target="_blank" rel="noopener noreferrer"
-             class="contact-card border-wa/30 bg-wa/5 hover:bg-wa/10">
-            <span class="contact-icon bg-wa text-white"><i data-lucide="message-circle" class="h-5 w-5"></i></span>
-            <span class="min-w-0">
-              <span class="block text-[11px] font-semibold uppercase tracking-wider text-brown">WhatsApp Enquiry</span>
-              <span class="block truncate text-[15px] font-bold text-ink">94210 31314</span>
-            </span>
+             class="w-full md:w-auto shrink-0 inline-flex items-center justify-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm md:text-base font-bold text-[#1B6D32] transition hover:bg-gray-50 active:scale-95 shadow-sm">
+            <i data-lucide="message-circle" class="h-5 w-5"></i>
+            WhatsApp वर मेसेज करा
+            <i data-lucide="arrow-right" class="h-4 w-4"></i>
           </a>
+        </div>
 
-          <a href="tel:+919421031314" class="contact-card">
-            <span class="contact-icon bg-beige text-price"><i data-lucide="phone" class="h-5 w-5"></i></span>
-            <span class="min-w-0">
-              <span class="block text-[11px] font-semibold uppercase tracking-wider text-brown">Primary Phone</span>
-              <span class="block truncate text-[15px] font-bold text-ink">94210 31314</span>
-            </span>
-          </a>
-
-          <a href="tel:+917058316937" class="contact-card">
-            <span class="contact-icon bg-beige text-price"><i data-lucide="phone-call" class="h-5 w-5"></i></span>
-            <span class="min-w-0">
-              <span class="block text-[11px] font-semibold uppercase tracking-wider text-brown">Secondary Phone</span>
-              <span class="block truncate text-[15px] font-bold text-ink">70583 16937</span>
-            </span>
-          </a>
-
-          <div class="contact-card cursor-default">
-            <span class="contact-icon bg-beige text-ink"><i data-lucide="badge-check" class="h-5 w-5"></i></span>
-            <span class="min-w-0">
-              <span class="block text-[11px] font-semibold uppercase tracking-wider text-brown">FSSAI Registration No.</span>
-              <span class="block truncate text-[15px] font-bold text-ink">21519173002060</span>
-            </span>
+        <!-- Festive Announcement Banner -->
+        <div class="bg-[#F9E8D2] text-ink rounded-2xl p-4 sm:p-5 mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 text-center border border-line">
+          <i data-lucide="calendar-check" class="h-6 w-6 text-[#A63D22] shrink-0"></i>
+          <div>
+            <p class="font-bold text-sm sm:text-base">दिवाळी व इतर सणांसाठी विशेष घरगुती पदार्थ उपलब्ध.</p>
+            <p class="text-xs sm:text-sm text-brown/90 mt-0.5">Special festive homemade products available for Diwali and other occasions.</p>
           </div>
         </div>
+
       </div>
     </section>
-  </main>
 
-  <!-- ================= FOOTER ================= -->
-  <footer class="border-t border-line bg-beige/50 px-4 pb-28 pt-8 sm:px-6 lg:pb-8">
-    <div class="mx-auto max-w-6xl">
-      <div class="flex flex-col items-center gap-4 text-center sm:flex-row sm:items-start sm:justify-between sm:text-left">
-        <div class="flex items-center gap-2">
-          <img src="assets/logo/logo.png" data-fallback-label="म" alt="मायेचं लोगो" width="44" height="44"
-               class="h-11 w-11 rounded-xl bg-cream object-cover ring-1 ring-line" />
-          <div class="leading-tight">
-            <p class="font-display text-[17px] font-bold text-ink">मायेचं</p>
-            <p class="text-[9px] font-semibold tracking-[0.18em] text-brown">HOMESPUN PRODUCTS</p>
+    <!-- 2. Rich Dark Brown Footer -->
+    <footer class="relative mt-10 bg-[#4A2C15] text-[#FFF5E8]">
+      <!-- Decorative Wave Curve Top -->
+      <div class="absolute top-0 inset-x-0 overflow-hidden leading-[0] transform -translate-y-full">
+        <svg class="relative block w-full h-[25px] md:h-[40px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C59.71,118.08,130.83,123.8,201.17,111.53,242.74,104.43,283.22,91.64,321.39,56.44Z" fill="#4A2C15"></path>
+        </svg>
+      </div>
+
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-12 pb-28 lg:pb-12">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-6 border-b border-[#79513A]/50 pb-8">
+          
+          <!-- Logo & Brand -->
+          <div class="flex items-center gap-3">
+            <img src="assets/logo/logo.png" data-fallback-label="म" alt="मायेचं लोगो" width="56" height="56"
+                 class="h-14 w-14 rounded-xl bg-[#FFF5E8] object-cover ring-1 ring-[#79513A] p-1" />
+            <div class="leading-tight">
+              <p class="font-display text-2xl font-bold text-white">मायेचं</p>
+              <p class="text-[10px] font-semibold tracking-[0.2em] text-[#EED2B3]">HOMESPUN PRODUCTS</p>
+            </div>
           </div>
+
+          <!-- Contact Numbers -->
+          <div class="flex flex-col items-center md:items-start gap-2 border-y md:border-y-0 md:border-x border-[#79513A]/50 py-4 md:py-0 md:px-8">
+            <p class="text-[11px] font-semibold tracking-wider text-[#EED2B3] uppercase">संपर्क / Contact</p>
+            <div class="flex items-center gap-3 text-lg font-bold text-white">
+              <i data-lucide="phone" class="h-5 w-5 text-[#EED2B3]"></i>
+              <a href="tel:+919421031314" class="hover:text-[#EED2B3] transition">94210 31314</a>
+              <span class="text-[#79513A]">|</span>
+              <a href="tel:+917058316937" class="hover:text-[#EED2B3] transition">70583 16937</a>
+            </div>
+          </div>
+
+          <!-- Availability Info -->
+          <div class="flex items-start gap-3 max-w-xs text-center md:text-left">
+            <i data-lucide="leaf" class="h-6 w-6 text-[#168238] shrink-0 mt-0.5"></i>
+            <div>
+              <p class="text-sm font-bold text-[#EED2B3]">संपूर्ण वर्षभर ऑर्डरनुसार</p>
+              <p class="text-xs text-white/80 mt-1">सर्व प्रकारचे घरगुती पदार्थ उपलब्ध.<br>All type of 'Diwali Homespun Product' are available for whole year according to the order.</p>
+            </div>
+          </div>
+
         </div>
 
-        <nav class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-[13px] font-medium text-brown" aria-label="फूटर मेनू">
-          <a href="#home" class="hover:text-ink">Home</a>
-          <a href="#products" class="hover:text-ink">Products</a>
-          <a href="#about" class="hover:text-ink">About Us</a>
-          <a href="#contact" class="hover:text-ink">Contact</a>
-        </nav>
+        <!-- Bottom Copyright & FSSAI -->
+        <div class="mt-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[11px] text-white/60">
+          <p>© <span id="year">2025</span> मायेचं | Homespun Products. All rights reserved.</p>
+          <p class="flex items-center gap-1.5">
+            <i data-lucide="shield-check" class="h-3.5 w-3.5"></i>
+            FSSAI Reg. No. 21519173002060
+          </p>
+        </div>
       </div>
-
-      <div class="mt-6 border-t border-line/70 pt-4 text-center text-[11.5px] leading-relaxed text-brown/80">
-        <p>FSSAI Reg. No. 21519173002060 · 94210 31314 · 70583 16937</p>
-        <p class="mt-1">© <span id="year">2025</span> मायेचं | Homespun Products. All rights reserved.</p>
-        <p class="mt-1 text-[10.5px] text-brown/60">
-          ही वेबसाइट केवळ उत्पादन चौकशीसाठी आहे. ऑनलाइन पेमेंट नाही. अंतिम पुष्टी WhatsApp वर होईल.
-        </p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
   <!-- ================= STICKY WHATSAPP FAB ================= -->
   <a id="fabWhatsapp" href="#" target="_blank" rel="noopener noreferrer"
